@@ -1,0 +1,1 @@
+cmd_/home/student/test_driver/test_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/student/test_driver/test_driver.ko /home/student/test_driver/test_driver.o /home/student/test_driver/test_driver.mod.o ;  true
